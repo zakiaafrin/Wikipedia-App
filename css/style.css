@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/originals/fe/e0/0f/fee00f182b42f0aa470b0c89d535bb70.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 40vw;
+    max-width: 40vw;
+}
+.logo{
+    border: 1px solid red;
+    background-color:rgb(236, 58, 252);
+    border-radius: 30%;
+    min-width: 30vw;
+    min-height: 40vh;
+    margin-bottom: 2vh;
+}
+input{
+    background-color: rgb(78, 3, 78);
+    color:white;
+    width: 10vw;
+    padding: 10px;
+    font-size: 15px;
+}
+.search{
+    border-radius: 40%;
+    background-color:rgb(187, 1, 125);
+    color: cornsilk;
+    max-width: 100%;
+    padding: 11px;
+    
+}
+.random{
+    border-radius: 40%;
+    background-color:rgb(50, 9, 163);
+    color: cornsilk;
+    padding: 10px;
+}
